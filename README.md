@@ -1,7 +1,7 @@
 # CarMatch — AI Car Matchmaker for the Indian Market
 
 A full-stack MVP that takes a buyer's 4-question profile and returns the top 3 matching Indian cars, scored deterministically and explained by Gemini AI.
-
+Note: Deployed on free render tier, so might have to waiting for 50sec to 1 minute, for backend to spinoff again.
 ---
 
 ## What This Is
