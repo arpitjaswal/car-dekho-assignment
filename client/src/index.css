@@ -1,34 +1,58 @@
+@import "tailwindcss";
+
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --bg:            #0C0C0F;
+  --surface:       #131316;
+  --surface-2:     #1A1A1F;
+  --surface-3:     #222228;
+  --border:        rgba(255,255,255,0.07);
+  --border-2:      rgba(255,255,255,0.13);
+  --amber:         #DFA040;
+  --amber-dim:     rgba(223,160,64,0.10);
+  --amber-border:  rgba(223,160,64,0.30);
+  --amber-dark:    #a87020;
+  --text:          #EEEEE8;
+  --text-2:        #87878C;
+  --text-3:        #44444C;
+  --font-display:  'Cormorant Garamond', serif;
+  --font-body:     'DM Sans', sans-serif;
+  --font-mono:     'DM Mono', monospace;
+}
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+*, *::before, *::after { box-sizing: border-box; }
 
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
+body {
+  margin: 0;
   background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+  color: var(--text);
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
 }
+
+#root {
+  min-height: 100svh;
+}
+
+h1, h2, h3 { margin: 0; }
+p { margin: 0; }
+button { font-family: var(--font-body); cursor: pointer; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fade-up   { animation: fadeUp 0.45s cubic-bezier(0.16,1,0.3,1) forwards; }
+.fade-up-1 { animation: fadeUp 0.45s cubic-bezier(0.16,1,0.3,1) 0.10s forwards; opacity: 0; }
+.fade-up-2 { animation: fadeUp 0.45s cubic-bezier(0.16,1,0.3,1) 0.20s forwards; opacity: 0; }
+.fade-up-3 { animation: fadeUp 0.45s cubic-bezier(0.16,1,0.3,1) 0.30s forwards; opacity: 0; }
+.fade-in   { animation: fadeIn 0.4s ease forwards; }
 
 @media (prefers-color-scheme: dark) {
   :root {

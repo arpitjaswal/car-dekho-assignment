@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1780304423750",
+    "timestamp": "2026-06-01T09:00:23.750Z",
+    "answers": {
+      "budget": "5to10L",
+      "familySize": "large",
+      "usage": "mixed",
+      "priority": "safety"
+    },
+    "recommendations": [
+      {
+        "rank": 1,
+        "car": {
+          "id": 25,
+          "name": "Punch",
+          "brand": "Tata",
+          "price": 613000,
+          "mileage": "18.97 kmpl",
+          "safetyRating": 5,
+          "bodyType": "SUV",
+          "familyFriendly": true,
+          "maintenanceCost": "Medium"
+        },
+        "score": 91,
+        "breakdown": {
+          "budget": 30,
+          "safety": 30,
+          "mileage": 16,
+          "familyFriendly": 15
+        }
+      },
+      {
+        "rank": 2,
+        "car": {
+          "id": 16,
+          "name": "Aura",
+          "brand": "Hyundai",
+          "price": 630000,
+          "mileage": "25.4 kmpl",
+          "safetyRating": 3,
+          "bodyType": "Sedan",
+          "familyFriendly": true,
+          "maintenanceCost": "Low"
+        },
+        "score": 88,
+        "breakdown": {
+          "budget": 30,
+          "safety": 18,
+          "mileage": 25,
+          "familyFriendly": 15
+        }
+      },
+      {
+        "rank": 3,
+        "car": {
+          "id": 27,
+          "name": "Nexon",
+          "brand": "Tata",
+          "price": 810000,
+          "mileage": "17.44 kmpl",
+          "safetyRating": 5,
+          "bodyType": "SUV",
+          "familyFriendly": true,
+          "maintenanceCost": "Medium"
+        },
+        "score": 86,
+        "breakdown": {
+          "budget": 30,
+          "safety": 30,
+          "mileage": 11,
+          "familyFriendly": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "1780303783872",
+    "timestamp": "2026-06-01T08:49:43.872Z",
+    "answers": {
+      "budget": "5to10L",
+      "familySize": "large",
+      "usage": "cityCommute",
+      "priority": "comfort"
+    },
+    "recommendations": [
+      {
+        "rank": 1,
+        "car": {
+          "id": 25,
+          "name": "Punch",
+          "brand": "Tata",
+          "price": 613000,
+          "mileage": "18.97 kmpl",
+          "safetyRating": 5,
+          "bodyType": "SUV",
+          "familyFriendly": true,
+          "maintenanceCost": "Medium"
+        },
+        "score": 91,
+        "breakdown": {
+          "budget": 30,
+          "safety": 30,
+          "mileage": 16,
+          "familyFriendly": 15
+        }
+      },
+      {
+        "rank": 2,
+        "car": {
+          "id": 16,
+          "name": "Aura",
+          "brand": "Hyundai",
+          "price": 630000,
+          "mileage": "25.4 kmpl",
+          "safetyRating": 3,
+          "bodyType": "Sedan",
+          "familyFriendly": true,
+          "maintenanceCost": "Low"
+        },
+        "score": 88,
+        "breakdown": {
+          "budget": 30,
+          "safety": 18,
+          "mileage": 25,
+          "familyFriendly": 15
+        }
+      },
+      {
+        "rank": 3,
+        "car": {
+          "id": 27,
+          "name": "Nexon",
+          "brand": "Tata",
+          "price": 810000,
+          "mileage": "17.44 kmpl",
+          "safetyRating": 5,
+          "bodyType": "SUV",
+          "familyFriendly": true,
+          "maintenanceCost": "Medium"
+        },
+        "score": 86,
+        "breakdown": {
+          "budget": 30,
+          "safety": 30,
+          "mileage": 11,
+          "familyFriendly": 15
+        }
+      }
+    ]
+  }
+]
